@@ -1,0 +1,51 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Build output (ignore if you build on deploy; keep if you ship compiled assets)
+/public/build
+/public/hot
+
+# Storage symlink (the public/storage error you hit)
+/public/storage
+
+# Laravel storage — keep the folders, ignore the contents
+/storage/*.key
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Bootstrap cache
+/bootstrap/cache/*
+
+# Environment files (NEVER commit these — they hold secrets)
+.env
+.env.backup
+.env.production
+.env.*.local
+
+# Editor / IDE
+/.idea
+/.vscode
+/.fleet
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & misc
+*.log
+npm-debug.log
+yarn-error.log
+
+# Laravel tooling
+.phpunit.result.cache
+/.phpunit.cache
+Homestead.json
+Homestead.yaml
+auth.json
+/.vagrant

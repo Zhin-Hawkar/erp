@@ -1,0 +1,4 @@
+# Ensure shell scripts always use LF line endings, even on Windows checkouts,
+# so they execute correctly inside the Linux containers.
+*.sh            text eol=lf
+docker/php/entrypoint.sh text eol=lf
